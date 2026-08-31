@@ -3,7 +3,7 @@
 # Do not modify this file directly. Instead, update the .env.example
 # or docker-compose-template.yaml and regenerate this file.
 # ==================================================================
-
+name: bm-rag-agent
 # Shared configuration using YAML anchors and env_file
 x-shared-api-worker-config: &shared-api-worker-config
   env_file:
